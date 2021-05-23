@@ -1,0 +1,23 @@
+
+  .vdplayer {
+    width: 70% !important;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+.boxWidth{
+    width: 62.5%;
+    margin-left: 18.8%;
+  }
+  .App-header {
+    /* background-color: #282c34;  */
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: white; */
+  }

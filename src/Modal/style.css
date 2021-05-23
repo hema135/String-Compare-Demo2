@@ -1,0 +1,83 @@
+
+
+.popup {
+    display:  flex;
+    position:  fixed;
+    left:  0;
+    right:  0;
+    top:  0;
+    bottom:  0;
+    width:100%;
+    height: 100vh;
+    background-color : rgba(68, 68, 68, 0.38);
+    z-index:  999;
+    overflow:  auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 648px;
+    background-color: #fff;
+}
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+
+}
+.mmmModal .modal-content{
+    width: auto !important;
+    padding: 0 50px;
+}
+.mmodal-body{
+    text-align: center;
+}
+
+.mmodal-body h2,
+.mmodal-body h5,
+.mmodal-body .check{
+    margin-bottom: 50px;
+}
+
+
+.mmodal-body .check{
+    color: rgb(66, 194, 49);
+}
+
+.mmodal-body svg{
+    font-size: 28px;
+    margin: 10px
+}
+
+div.modal .close-modal-btn{
+    position: absolute;
+    color: #fff;
+    right: 25px;
+    top: 0px;
+    font-size: 56px;
+    cursor: pointer;
+}
+
+div.modal .modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    overflow: auto;
+    max-height: 100vh;
+    z-index: 99999;
+
+}
+
+div.modal .modal-header .close-modal-btn{
+    color: #000;
+    font-size: 2rem;
+}
